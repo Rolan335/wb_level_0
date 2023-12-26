@@ -52,7 +52,7 @@ CREATE TABLE "order"(
 	payment_id bigint not null references payment (id_payment),
     order_uid VARCHAR(100),
     track_number VARCHAR(100),
-    entry VARCHAR(100),
+    "entry" VARCHAR(100),
     locale VARCHAR(10),
     internal_signature VARCHAR(100),
     customer_id VARCHAR(100),
